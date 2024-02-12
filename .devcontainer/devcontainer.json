@@ -1,0 +1,17 @@
+{
+    "name": "Semantic Playground",
+    "image": "mcr.microsoft.com/devcontainers/dotnet:8.0-jammy",
+    "features": {
+        "ghcr.io/devcontainers/features/azure-cli:1": {}
+    },
+    "postCreateCommand": "",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-semantic-kernel.semantic-kernel",
+                "ms-dotnettools.csdevkit",
+                "ms-dotnettools.dotnet-interactive-vscode"
+            ]
+        }
+    }
+}
