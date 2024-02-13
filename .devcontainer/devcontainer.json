@@ -2,7 +2,12 @@
     "name": "Semantic Playground",
     "image": "mcr.microsoft.com/devcontainers/dotnet:8.0-jammy",
     "features": {
-        "ghcr.io/devcontainers/features/azure-cli:1": {}
+        "ghcr.io/devcontainers/features/azure-cli:1": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainers/features/dotnet:2": {
+            "version": "6.0"
+        }
     },
     "postCreateCommand": "",
     "customizations": {
@@ -10,7 +15,8 @@
             "extensions": [
                 "ms-semantic-kernel.semantic-kernel",
                 "ms-dotnettools.csdevkit",
-                "ms-dotnettools.dotnet-interactive-vscode"
+                "ms-dotnettools.dotnet-interactive-vscode",
+                "GitHub.copilot-chat"
             ]
         }
     }
