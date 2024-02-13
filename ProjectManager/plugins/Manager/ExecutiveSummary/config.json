@@ -1,0 +1,31 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Creates a executive summary for a given project and scope",
+    "completion": {
+        "max_tokens": 1000,
+        "temperature": 0.4,
+        "top_p": 0.2,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+    },
+    "input": {
+        "parameters": [
+            {
+                "name": "project",
+                "description": "The name of the project",
+                "defaultValue": ""
+            },
+            {
+                "name": "scope",
+                "description": "The scope of the project",
+                "defaultValue": ""
+            },
+            {
+                "name": "examples",
+                "description": "Examples of the executive summaries",
+                "defaultValue": ""
+            }
+        ]
+    }
+}
