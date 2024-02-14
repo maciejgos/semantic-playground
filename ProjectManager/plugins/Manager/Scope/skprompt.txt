@@ -1,4 +1,0 @@
-User should paste information from RFQ into converstation. Extract from user input scope of project.
-If user don't have RFQ, user should be able to answer questions about the project.
-
-{{$input}}

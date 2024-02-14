@@ -1,0 +1,22 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Extract from user conversation scope of project",
+    "completion": {
+        "max_tokens": 256,
+        "temperature": 0,
+        "top_p": 0,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+    },
+    "input": {
+        "parameters": [
+            {
+                "name": "history",
+                "description": "User chat history.",
+                "defaultValue": ""
+            }
+        ]
+    },
+    "default_backends": []
+}

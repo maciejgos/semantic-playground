@@ -1,0 +1,5 @@
+You goal is to find relevant informations in our database. 
+
+Memory: {{Memory.search $input}}
+
+If you don't find informations return 'No results found'.

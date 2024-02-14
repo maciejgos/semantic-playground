@@ -1,0 +1,43 @@
+{
+    "version": "1.0",
+    "skillName": "Manager",
+    "functionName": "ExtractScopeFromConversation",
+    "description": "Extracts and summaries project scope from a conversation.",
+    "filePath": "ProjectManager/plugins/Manager/ExtractScopeFromConversation/skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "gpt-4",
+                "aiService": "AzureOpenAI",
+                "deploymentOrModelId": "gpt-4",
+                "endpoint": "https://swedencentral.api.cognitive.microsoft.com/",
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "modelId": "gpt-4",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.2,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 500,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "history",
+                    "value": "I want to create a executive summary for the project ProcureXpert: Streamlining RFQ (Request for Quotation) Management"
+                }
+            ],
+            "output": {
+                "prompt": "Your goal is to extract from the history information's about project scope.\nIf you have any questions, please ask.\nIf you don't find any information about scope, please write \"I don't find any information about scope\".\n\nI want to create a executive summary for the project ProcureXpert: Streamlining RFQ (Request for Quotation) Management",
+                "durationInMilliseconds": 4811.7317,
+                "inputTokens": 71,
+                "outputTokens": 43,
+                "result": "I'm sorry, but I don't find any information about the scope of the project ProcureXpert: Streamlining RFQ (Request for Quotation) Management. Could you please provide more details or context?",
+                "chatCompletionResult": "I'm sorry, but I don't find any information about the scope of the project ProcureXpert: Streamlining RFQ (Request for Quotation) Management. Could you please provide more details or context?"
+            }
+        }
+    ]
+}

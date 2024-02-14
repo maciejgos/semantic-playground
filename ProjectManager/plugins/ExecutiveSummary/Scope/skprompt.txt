@@ -1,0 +1,6 @@
+Your goal is to extract project scope from provided chat history.
+If you could not find the scope, you can simply mention that the scope is not clear.
+
+Please ask for clarification if the chat is not clear.
+
+{{$history}}

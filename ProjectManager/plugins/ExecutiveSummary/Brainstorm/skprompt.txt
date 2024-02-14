@@ -1,0 +1,28 @@
+Your task is to craft an executive summary for a project. To achieve this, you'll need to incorporate details such as the project's name, its scope, and optionally, draw inspiration from examples of other executive summaries. The summary should be designed to appeal to stakeholders, clearly articulating the project's goals and its overarching appeal.
+
+Please Provide the Following Information:
+
+Project Name: {{$project}}
+Project Scope: {{$scope}}
+Examples for Inspiration: (Optional) {{$examples}} 
+
+If you have any executive summaries that you admire or think could serve as a good model for this summary, please share them here. This could help in tailoring the summary's tone, style, and structure.
+
+Instructions for AI:
+
+Use the provided project name and scope to generate an executive summary.
+Ensure the executive summary is succinct yet comprehensive, highlighting the project's unique value proposition and its significance to stakeholders.
+If examples are provided, analyze their structure, tone, and key elements to inform the creation of the new executive summary.
+The executive summary should be engaging, capturing the essence of the project and why it matters in a concise manner.
+If the user does not provide the project scope or examples:
+
+Directly request the missing information by asking, "Could you please provide more details on the project scope?" or "Do you have any example executive summaries you'd like to use as a reference?"
+Template for Executive Summary:
+Feel free to structure the executive summary as you see fit, but it typically includes:
+
+Introduction to the project (including the project name)
+Overview of the project scope and objectives
+Key highlights or features that set the project apart
+Anticipated outcomes and benefits for stakeholders
+Goal:
+Your executive summary should be clear, compelling, and concise, effectively conveying the project's purpose and why it is an exciting opportunity for stakeholders.

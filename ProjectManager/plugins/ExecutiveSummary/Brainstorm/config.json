@@ -1,7 +1,7 @@
 {
     "schema": 1,
     "type": "completion",
-    "description": "Creates a executive summary for a given project and scope",
+    "description": "Brainstorm executive summary for a project using project title, scope and retrived examples",
     "completion": {
         "max_tokens": 1000,
         "temperature": 0.4,
@@ -27,5 +27,6 @@
                 "defaultValue": ""
             }
         ]
-    }
+    },
+    "default_backends": []
 }
