@@ -1,0 +1,111 @@
+{
+    "version": "1.0",
+    "skillName": "Manager",
+    "functionName": "ScopeSummary",
+    "description": "Extract and summary project scope from RFQ",
+    "filePath": "ProjectManager/plugins/Manager/ScopeSummary/skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "gpt-4",
+                "aiService": "AzureOpenAI",
+                "deploymentOrModelId": "gpt-4",
+                "endpoint": "https://swedencentral.api.cognitive.microsoft.com/",
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "modelId": "gpt-4",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.2,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 500,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "I want to create a executive summary for the project"
+                }
+            ],
+            "output": {
+                "prompt": "User should paste information from RFQ into converstation. Extract from user input scope of project.\nIf user don't have RFQ, user should be able to answer questions about the project.\n\nI want to create a executive summary for the project",
+                "durationInMilliseconds": 23526.7375,
+                "inputTokens": 48,
+                "outputTokens": 113,
+                "result": "Sure, I can help you with that. Please provide me with the details of the project. If you have a Request for Quotation (RFQ), you can paste it here. If not, please answer the following questions:\n\n1. What is the project about?\n2. What are the project objectives?\n3. What is the timeline for the project?\n4. Who are the key stakeholders?\n5. What are the expected deliverables?\n6. What is the estimated budget for the project?\n7. Are there any specific requirements or constraints for the project?",
+                "chatCompletionResult": "Sure, I can help you with that. Please provide me with the details of the project. If you have a Request for Quotation (RFQ), you can paste it here. If not, please answer the following questions:\n\n1. What is the project about?\n2. What are the project objectives?\n3. What is the timeline for the project?\n4. Who are the key stakeholders?\n5. What are the expected deliverables?\n6. What is the estimated budget for the project?\n7. Are there any specific requirements or constraints for the project?"
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-4",
+                "aiService": "AzureOpenAI",
+                "deploymentOrModelId": "gpt-4",
+                "endpoint": "https://swedencentral.api.cognitive.microsoft.com/",
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "modelId": "gpt-4",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.2,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 500,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "I'm building web application in cloud"
+                }
+            ],
+            "output": {
+                "prompt": "User should paste information from RFQ into converstation. Extract from user input scope of project.\nIf user don't have RFQ, user should be able to answer questions about the project.\n\nI'm building web application in cloud",
+                "durationInMilliseconds": 25413.3654,
+                "inputTokens": 45,
+                "outputTokens": 163,
+                "result": "That sounds like an exciting project! To help you better, could you please provide more details about your web application? Here are some questions that might help:\n\n1. What is the purpose or functionality of the web application?\n2. What technologies or programming languages do you plan to use?\n3. Do you have any specific requirements for the cloud platform?\n4. What is the expected timeline for the project?\n5. Do you have any specific security, scalability, or performance requirements?\n6. Do you need any specific features like user authentication, database integration, etc.?\n7. Who are the end users of the application?\n8. Do you have any design or UI/UX requirements?\n9. Do you need support for mobile devices or other specific devices?\n10. Do you have a budget for this project?",
+                "chatCompletionResult": "That sounds like an exciting project! To help you better, could you please provide more details about your web application? Here are some questions that might help:\n\n1. What is the purpose or functionality of the web application?\n2. What technologies or programming languages do you plan to use?\n3. Do you have any specific requirements for the cloud platform?\n4. What is the expected timeline for the project?\n5. Do you have any specific security, scalability, or performance requirements?\n6. Do you need any specific features like user authentication, database integration, etc.?\n7. Who are the end users of the application?\n8. Do you have any design or UI/UX requirements?\n9. Do you need support for mobile devices or other specific devices?\n10. Do you have a budget for this project?"
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-4",
+                "aiService": "AzureOpenAI",
+                "deploymentOrModelId": "gpt-4",
+                "endpoint": "https://swedencentral.api.cognitive.microsoft.com/",
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "modelId": "gpt-4",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.2,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 500,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "Hello"
+                }
+            ],
+            "output": {
+                "prompt": "User should paste information from RFQ into converstation. Extract from user input scope of project.\nIf user don't have RFQ, user should be able to answer questions about the project.\n\nHello",
+                "durationInMilliseconds": 7292.2093,
+                "inputTokens": 39,
+                "outputTokens": 48,
+                "result": "Hello! How can I assist you today? If you have a Request for Quotation (RFQ) for a project, you can paste it here. If not, I can ask you some questions to understand the scope of your project.",
+                "chatCompletionResult": "Hello! How can I assist you today? If you have a Request for Quotation (RFQ) for a project, you can paste it here. If not, I can ask you some questions to understand the scope of your project."
+            }
+        }
+    ]
+}
