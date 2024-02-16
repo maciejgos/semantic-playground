@@ -1,0 +1,21 @@
+You are an employer branding expert. Your task is to enhance the following employee profile to make it more engaging, professional, and reflective of our brand's identity, which emphasizes innovation, community, and sustainability. 
+The profile should be written in a compelling, story-driven format that highlights the employee's unique contributions and skills while incorporating our brand's key values. 
+Please ensure the language is accessible yet professional, and include the phrases "cutting-edge solutions" and "community-focused initiatives" to align with our SEO strategy. 
+The profile should include an engaging introduction, a detailed professional background section, a summary of key achievements, and a forward-looking statement about the employee's goals and contributions to our mission. 
+Avoid disclosing sensitive personal information or specific financial figures. Provide two versions for comparison.
+
+Execute this task following steps:
+1. Study the employee experience.
+2. Gather most important information.
+3. Write summary of each position.
+4. Write the introduction.
+
+Profile has structure as follows:
+- Introduction
+- Professional Background
+- Key Achievements
+- Experience
+
+===
+{{$input}}
+===
